@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="content">
+      <img src="./images/header.png" class="content_header" alt="" style="display: block;width: 100%" />
+      <div class="content_body_box">
+        <div class="content_body">
+          <p class="p2">尊敬的XXX，</p>
+          <p class="p2" style="text-indent: 2em;">您有XX条待办待您审批，请登陆Portal门户收件箱尽快完成审批。</p>
+          <table border="1" cellspacing="0" cellpadding="10">
+            <tr class="table_tr">
+              <td>流程类型</td>
+              <td>名称详情</td>
+              <td>发起人</td>
+              <td>创建时间</td>
+              <td>流程ID</td>
+            </tr>
+            <tr class="table_trr">
+              <td>原收件箱清单-流程名称字段</td>
+              <td>新增字段，取值流程单据中的客户名称。营销计划/营销活动审批单据取值营销计划/营销活动的名称描述</td>
+              <td>取值流程发起人，原收件箱清单-发起人字段</td>
+              <td>BPM流程单创建时间，原收件箱清单-创建时间字段</td>
+              <td>BPM审批流程单号，原收件箱-流程ID字段</td>
+            </tr>
+          </table>
+
+          <p class="p2" style="text-indent: 2em;">本次邮件提醒由SAP于YYYY-MM-DD HH:MM:SS自动发送，请勿回复。如有问题，请联系IT服务台4001508585。</p>
+          <p class="p2" style="text-indent: 2em;">谢谢！</p>
+        </div>
+      </div>
+
+      <img src="./images/footer.jpg" class="content_footer" alt="" />
+    </div>
+  </body>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .content_header {
+      display: block;
+      width: 100%;
+    }
+    .content_body_box {
+      overflow: hidden;
+      background: #9ed8f6;
+    }
+    .content_body {
+      min-height: 500px;
+      overflow: hidden;
+      background: #eaf3fa;
+      padding: 50px 20px 30px 20px;
+      margin: 0 10px 0 10px;
+    }
+    .content_footer {
+      display: block;
+      width: 100%;
+    }
+    .p2 {
+      font-size: 14px;
+      line-height: 40px;
+    }
+    table {
+      margin-left: 2em;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .table_tr {
+      text-align: center;
+      font-size: 14px;
+    }
+    .table_trr {
+      font-size: 14px;
+    }
+    .table_trr td {
+      padding: 5px;
+    }
+  </style>
+</html>

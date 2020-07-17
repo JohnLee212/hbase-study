@@ -1,0 +1,13 @@
+server:
+  port: 8088
+
+hbase:
+  zookeeper:
+    quorum: 47.114.94.33
+    property:
+      clientPort: 2181
+  master: 47.114.94.33:16010
+
+zookeeper:
+  znode:
+    parent: /hbase
